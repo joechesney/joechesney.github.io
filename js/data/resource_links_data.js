@@ -17,7 +17,7 @@ const resource_links_data = function() {
       {
         "heading": "RESUME",
         "image": "images/pdf-circle.png",
-        "anchor": "./Joe_Chesney_Resume.pdf",
+        "anchor": "./JoeChesney.pdf",
         "alt": "link to Pdf file type Logo for Resume"
       }
     ],
