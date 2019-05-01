@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Joe Chesney Portfolio</title>
+  <meta content="Joe Chesney Nashville Software School NSS Developer Programmer Node JavaScript" name="keywords">
+  <meta content="Personal Portfolio site for web developer Joe Chesney" name="description">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="node_modules/ionicons/dist/css/ionicons.min.css" rel="stylesheet">
+  <link href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="node_modules/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="./images/js_favicon2.png">
+<script
+  src="https://code.jquery.com/jquery-3.4.0.min.js"
+  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+
+        <div class="logo">
+          <a href="index.html"><img src="images/logo4.png" alt="logo"></a>
+        </div>
+
+        <div class="responsive"><img class="hamburger" src="images/bars-solid.svg"></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#technology" class="smoothScroll">Experience</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="header" class="home">
+
+    <div class="container">
+      <div class="header-content">
+        <h1>I'm <span class="typed"></span></h1>
+        <p>developer. designer. musician.</p>
+
+        <ul class="list-unstyled list-social">
+          <li>
+            <a href="https://github.com/joechesney" target="_blank">
+              <img src="./images/ionicons_github.svg" >
+            </a>
+            <span>Github</span>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/joe-chesney" target="_blank">
+              <img src="./images/ionicons_linkedin.svg" >
+            </a>
+            <span>LinkedIn</span>
+          </li>
+          <li>
+            <a href="./Joe_Chesney_Resume.pdf" target="_blank">
+              <img src="./images/ionicons_document.svg" >
+            </a>
+            <span>Resume</span>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-header-links col-12">
+    <ul class="list-unstyled list-social">
+      <li class="col-4">
+        <a href="https://github.com/joechesney" target="_blank">
+          <img src="./images/ionicons_github.svg" >
+          Github
+        </a>
+      </li>
+      <li class="col-4">
+        <a href="https://www.linkedin.com/in/joe-chesney" target="_blank">
+          <img src="./images/ionicons_linkedin.svg" >
+          LinkedIn
+        </a>
+      </li>
+      <li class="col-4">
+        <a href="./Joe_Chesney_Resume.pdf" target="_blank">
+          <img src="./images/ionicons_document.svg" >
+          Resume
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-12">
+          <div class="about-descr">
+            <p class="p-heading">Full Stack Software Developer.</p>
+            <p class="separator">Born and raised in Nashville, Tn, I have been a musician since I was a child. I attended Hume Fogg Academic Magnet High School, and then earned my Bachelor's Degree in Psychology from the University of Tennessee at Chattanooga. After graduating, I pursued a career in carpentry, running my own custom carpentry business for 2 years. In the fall of 2017, I decided to make a career change to Software Development. I attended Nashville Software School for the Full Stack Web Development Bootcamp, and graduated in May of 2018. As a musician and carpenter, I developed creative planning, structuring, and revising skills that I apply to software development daily. With a year of development experience under my belt, I am currently seeking a career in Full Stack development. </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="technology" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>My Technology Experience</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-12">
+
+          <div class="technology-list">
+            <span class="centered">Filters:</span>
+            <ul class="nav list-unstyled" id="technology-flters">
+              <li class="filter filter-active" data-filter=".all">All</li>
+              <li class="filter" data-filter=".frontend">Front End</li>
+              <li class="filter" data-filter=".backend">Back End</li>
+              <li class="filter" data-filter=".frameworks">Frameworks</li>
+              <li class="filter" data-filter=".tools">Tools</li>
+              <li class="filter" data-filter=".languages">Languages</li>
+            </ul>
+          </div>
+
+          <div class="technology-container">
+            <!-- technologies are rendered by javascript -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div id="portfolio" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Portfolio</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="journal-block">
+        <div id="portfolio-container" class="row" >
+          <!-- portfolio rendered by Javascript -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+              <h2 class="mb-30">GET IN TOUCH</h2>
+              <ul class="contact-details">
+                <!-- <li><span>Nashville, Tn</span></li> -->
+                <li><span>(615) 438-9707</span></li>
+                <li><span>Joedihchesney@gmail.com</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="contact-me-form" class="col-lg-6">
+            <!-- form rendered by Javascript-->
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div id="services">
+        <div class="container">
+          <div class="services-carousel row">
+            <!-- Links are generated by Javascript -->
+          </div>
+        </div>
+      </div>
+      <p>&copy; Joe Chesney 2018</p>
+
+    </div>
+  </div>
+  <!-- <script
+  src="https://code.jquery.com/jquery-3.4.0.min.js"
+  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+  crossorigin="anonymous"></script> -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="node_modules/typed.js/lib/typed.min.js"></script>
+  <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="node_modules/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+  <script src="node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
+  <script src="node_modules/ionicons/dist/ionicons.js"></script>
+  <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+
+
+  <script src="js/main.js"></script>
+
+  <script type="module" src="js/resource_links.js"></script>
+  <script type="module" src="js/technologies.js"></script>
+  <script type="module" src="js/portfolio.js"></script>
+  <script type="module" src="js/contact_me.js"></script>
+  <script src="./contactform/contactform.js"></script>
+
+  <script type="module" src="js/data/resource_links_data.js"></script>
+  <script type="module" src="js/data/about_me_data.js"></script>
+  <script type="module" src="js/data/technologies_data.js"></script>
+  <script type="module" src="js/data/portfolio_data.js"></script>
+
+</body>
+
+</html>
